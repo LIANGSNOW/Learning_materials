@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch
+*.pth
+*.pt
+
+# Machine Learning Models
+models/
+*.bin
+*.safetensors
+checkpoints/
+wandb/
+mlruns/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# HuggingFace
+.huggingface/
+transformers_cache/
+
+# TensorBoard
+runs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Large files (common ML file extensions)
+*.ckpt
+*.model
+*.pkl
+*.pickle
+
+# Output directories
+outputs/
+results/
+experiments/ 
